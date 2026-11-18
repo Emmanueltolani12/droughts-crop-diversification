@@ -1,0 +1,29 @@
+# Data: household microdata and input files are never committed
+data/*
+!data/README.md
+*.dta
+*.xlsx
+*.xls
+*.csv
+*.shp
+*.shx
+*.dbf
+*.prj
+*.zip
+
+# Outputs of a run (created by 00_run_all.do)
+logs/
+tables/
+figures/
+plot_data/
+*.gph
+*.smcl
+
+# Editor and R files
+.Rhistory
+.RData
+.Rproj.user/
+~$*
+
+# outreg2 writes its last-used options (with local paths) here
+stata/ado/plus/o/outreg2.pref
