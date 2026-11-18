@@ -90,9 +90,7 @@ foreach d in drought_shock12m_t_1 drought_shock6m_t_1 {
 }
 
 *------------------------------------------------------------------------------
-* Figure 4 and Table A6: droughts and crop acreage shares. The soybean and
-* sunflower shares count households without cropland as 0 (19,878
-* observations); the other five shares are missing for them (19,111).
+* Figure 4 and Table A6: droughts and crop acreage shares.
 *------------------------------------------------------------------------------
 local opt replace
 foreach crop in Groundnuts Maize Sorghum Mixed_Beans Soyabeans Sunflower Cowpeas {
