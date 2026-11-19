@@ -103,7 +103,7 @@ Rscript --vanilla R/01_run_all_figures.R
 
 - **Yields** (Figure 2): log of harvest per hectare planted of maize, groundnuts, beans, soybeans, cowpea, sorghum and sunflower, on the contemporaneous 12-month drought.
 - **Adaptation outcomes** (Tables 2–4, Figures 3–4): number of crops grown, adoption of improved (climate-resilient) seeds (1/0), total cropland (hectares), acreage shares of the seven crops, crop HHI (sum of the squared acreage shares of the seven crops) and SDI (1 − HHI), on the previous season's drought.
-- **Acreage shares** (Figure 4, Table A6): area planted to the crop divided by the total cropland. Households without cropland have no share (19,111 observations), except for soybeans and sunflower, where their share is counted as 0 (19,878 observations).
+- **Acreage shares** (Figure 4, Table A6): area planted to the crop divided by the total cropland. 
 - **Droughts.** Drought = 1 if the SPEI in April is −1 or lower: the 12-month SPEI (main measure) or the 6-month SPEI. Contemporaneous: April of the survey year; previous: April of the year before.
 - **Estimator.** Household fixed effects with year fixed effects (`xtreg, fe`), standard errors clustered by enumeration area (`cluster`). Controls: the head's sex, education and age, household size, credit access, market participation, FISP participation and the asset index.
 - **Table 6:** random effects with the household means of the time-varying controls (Mundlak–Chamberlain), standard errors clustered on `hh`.
